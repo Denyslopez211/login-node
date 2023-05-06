@@ -5,4 +5,6 @@ const CONFIG = {
   },
 };
 
-module.exports = { CONFIG };
+const URL = process.env.URL;
+
+module.exports = { CONFIG, URL };
